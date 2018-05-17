@@ -1,0 +1,116 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" },
+    { "id": 2, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "hello":{"id":5,"name":"kobe"},
+  "items":[
+    {
+      "name":"销售",
+      "id":1,
+      "company":"千度",
+      "city":"上海",
+      "business":"互联网",
+      "imgSrc":"image/atguigu.png",
+      "time":"2017-2-14 14:10:10"
+    },
+    {
+      "name":"阿语SEM工程师",
+      "id":2,
+      "company":"六一集团有限公司",
+      "city":"北京",
+      "business":"互联网",
+      "imgSrc":"image/company-3.png",
+      "time":"2017-3-3 14:10:10"
+    },
+    {
+      "name":"WEB前段",
+      "id":3,
+      "company":"尚硅谷",
+      "city":"北京",
+      "business":"互联网",
+      "imgSrc":"image/atguigu.png",
+      "time":"2017-3-2 15:10:10"
+    },
+    {
+      "name":"销售",
+      "id":4,
+      "company":"千度",
+      "city":"上海",
+      "business":"互联网",
+      "imgSrc":"image/company-3.png",
+      "time":"2017-2-14 14:10:10"
+    }
+
+  ],
+  "tabLists":[
+    {"id":"city","name":"城市"},
+    {"id":"salary","name":"工资"},
+    {"id":"scale","name":"公司规模"}
+  ],
+  "citys":[
+    {
+      "id": "",
+      "name": "全国"
+    },
+    {
+      "id": "c1",
+      "name": "北京"
+    },
+    {
+      "id": "c2",
+      "name": "上海"
+    },
+    {
+      "id": "c3",
+      "name": "广州"
+    }],
+  "salary":[{
+    "id": "",
+    "name": "不限"
+  }, {
+    "id": "s1",
+    "name": "3000以下"
+  }, {
+    "id": "s2",
+    "name": "3000~4999"
+  }, {
+    "id": "s3",
+    "name": "5000~7999"
+  }, {
+    "id": "s4",
+    "name": "8000~10000"
+  }, {
+    "id": "s5",
+    "name": "10000~15000"
+  }, {
+    "id": "s6",
+    "name": "15000~25000"
+  }, {
+    "id": "s7",
+    "name": "25000以上"
+  }],
+  "scale":[{
+    "id": "",
+    "name": "不限"
+  }, {
+    "id": "d1",
+    "name": "少于50人"
+  }, {
+    "id": "d2",
+    "name": "50~100人"
+  }, {
+    "id": "d3",
+    "name": "100~500人"
+  }, {
+    "id": "d4",
+    "name": "500人以上"
+  }]
+
+
+
+}

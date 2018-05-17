@@ -1,0 +1,39 @@
+#company .head{
+    height:30px;
+    line-height: 30px;
+    background:  #12d5b5;
+    padding:5px 0;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+#company .arrow{
+    height:30px;
+    width:30px;
+    position: absolute;
+    left:5px;
+    top:5px;
+    font-size: 22px;
+}
+#company .position{
+    overflow: hidden;
+    padding:10px;
+    border-bottom: 1px solid #eee;
+}
+
+#company img{
+    float: left;
+    width:80px;
+    height:80px;
+    margin-right: 10px;
+}
+#company p{
+    height:25px;
+    line-height: 25px;
+    color: #333;
+}
+
+#company .position span{
+    color: #f5a200;
+}

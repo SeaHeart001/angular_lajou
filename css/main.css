@@ -1,0 +1,39 @@
+#main .head{
+    background: #12d5b5;
+    height:30px;
+    padding:10px;
+    line-height: 30px;
+}
+#main .head span{
+    color: #fff;
+    font-size: 20px;
+}
+
+#main .head button{
+    float: right;
+    width:70px;
+    height:30px;
+    background:#f5a200 ;
+    border:none;
+    outline: none;
+    color: #fff;
+}
+.company li{
+    overflow: hidden;
+    padding:10px 5px;
+    border-bottom: 1px solid #eee;
+}
+.company img{
+    float: left;
+    width:60px;
+    height:60px;
+    margin-right: 10px;
+}
+
+.company h4{
+    color: #666;
+}
+.company p{
+    height:25px;
+    line-height: 25px;
+}

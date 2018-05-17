@@ -1,0 +1,36 @@
+#person .head{
+    height:160px;
+    width:100%;
+    background: #12d5b5;
+    position: relative;
+}
+
+#person img{
+    width:120px;
+    height:120px;
+    border-radius: 60px;
+    position: absolute;
+    top:20px;
+    left:50%;
+    margin-left:-60px;
+}
+
+#person p{
+    height:40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+    padding:0 15px;
+}
+
+#person button{
+    margin-left: 15px;
+    border:none;
+    outline:none;
+    width:200px;
+    height:40px;
+    background:#f5a200;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+}

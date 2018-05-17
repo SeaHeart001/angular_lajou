@@ -1,0 +1,15 @@
+<div id="main">
+    <div class="head">
+        <span>10s定制职位</span>
+        <button ui-sref="person">个人中心</button>
+    </div>
+    <ul class="company">
+        <li ng-repeat="company in companys" ui-sref="company({id:company.id})">
+            <img ng-src={{company.imgSrc}} alt="">
+            <h4>{{company.name}}</h4>
+            <p><span>{{company.city}}</span></p>
+            <span>{{company.time}}</span>
+        </li>
+    </ul>
+
+</div>
